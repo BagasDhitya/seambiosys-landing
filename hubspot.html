@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seambiosys</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .text-seambiosys-blue {
+            color: #012470;
+        }
+        .bg-seambiosys-blue {
+            background-color: #012470;
+        }
+        .hover\:text-seambiosys-orange:hover {
+            color: #f25801;
+        }
+
+        .bg-seambiosys-orange {
+            background-color: #f25801;
+        }
+    </style>
+</head>
+<body class="min-h-screen lg:w-screen bg-white flex flex-col">
+    <nav class="w-full bg-white sticky top-0 z-10 h-full shadow-md">
+        <div class="m-5 flex items-center justify-between">
+            <div class="flex items-center space-x-10">
+                <a href="/">
+                    <img src="./assets/seambiosys_logo.jpeg" width="200" height="200" class="cursor-pointer" alt="Seambiosys Logo">
+                </a>
+            </div>
+            <div class="flex justify-center items-center lg:visible md:visible invisible">
+                <div class="flex space-x-10 mx-10">
+                    <a href="home.html" class="text-seambiosys-blue hover:text-seambiosys-orange">Home</a>
+                    <a href="hubspot.html" class="text-seambiosys-blue hover:text-seambiosys-orange">HubSpot CRM</a>
+                </div>
+                <a href="/home/contact_sales" class="bg-seambiosys-orange p-3 px-10 rounded-md text-white hover:text-white">Contact Sales</a>
+            </div>
+        </div>
+        <div class="lg:hidden md:hidden flex flex-col space-y-2 items-center bg-white text-white py-2 my-4">
+            <a href="home.html" class="text-seambiosys-blue hover:text-seambiosys-orange">Home</a>
+            <a href="hubspot.html" class="text-seambiosys-blue hover:text-seambiosys-orange">HubSpot CRM</a>
+            <a href="/home/contact_sales" class="text-white rounded-md bg-seambiosys-orange p-3">Contact Sales</a>
+        </div>
+    </nav>
+    <div class="w-full sm:w-full md:w-2/3 lg:w-1/2 xl:w-1/3 py-8">
+        <body class="min-h-screen lg:w-screen bg-white flex flex-col">
+            <section class="flex flex-wrap justify-center items-center my-16 grid lg:mx-auto mx-10 w-screen text-black">
+                <div class="grid grid-cols-1 text-center">
+                    <h1 class="text-4xl font-bold">Hubspot Implementation</h1>
+                    <img src="./assets/seambiosys_hubspot.png" alt="Logo" width="500" height="500" class="mx-auto my-6" />
+                    <div class="my-14">
+                        <p>Need to orchestrate end-to-end solutions from Marketing, Sales to Service Operations?</p>
+                        <p>Hubspot CRM is the best fit for your business</p>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-x-5 text-center mt-10">
+                    <a href="#" class="p-3 lg:ml-0 ml-10 bg-seambiosys-blue rounded-md text-gray-100 hover:text-white hover:bg-seambiosys-blue">Visit Hubspot</a>
+                    <a href="#" class="p-3 lg:mr-0 mr-10 bg-seambiosys-orange rounded-md text-gray-100 hover:text-white">Contact Sales</a>
+                </div>
+            </section>
+        
+            <section class="flex flex-wrap justify-center items-center my-20 grid mx-auto w-screen text-black">
+                <div class="grid grid-cols-1 gap-y-5 text-center">
+                    <h1 class="text-4xl font-bold lg:mr-0 mr-5">Why Hubspot?</h1>
+                    <div class="my-20 lg:mx-60 mx-auto flex">
+                        <iframe
+                            class="lg:w-screen lg:mr-0 mr-5 w-80 h-96 rounded-lg shadow-md"
+                            src="https://www.youtube.com/embed/1_Oblfg_zq8?autoplay=0&rel=0&showinfo=1&controls=1"
+                            title="hubspot"
+                        ></iframe>
+                    </div>
+                </div>
+                <div class="grid lg:grid-cols-3 lg:mr-0 mr-5 gap-y-20 text-center mt-10">
+                    <div class="grid gap-y-10 mx-20">
+                        <img src="./assets/seambiosys_ete.png" width="100" height="100" class="mx-auto" />
+                        <h1 class="text-3xl font-bold">End to end Solution</h1>
+                        <p>Do you need Marketing Automation? <br />
+                            Do you looking for Sales Automation? <br />
+                            Do you try to keep your best SLA in Service Operation? <br />
+                            Sure, hubspot can do</p>
+                    </div>
+                    <div class="grid gap-y-10 mx-20">
+                        <img src="./assets/seambiosys_low.png" width="100" height="100" class="mx-auto" />
+                        <h1 class="text-3xl font-bold">Easy adoption, lower TCO</h1>
+                        <p>Don't worry with minimals or low-code administrator, no need costly maintenance. <br />
+                            Just as a simple like you put drag n drop everything on platform. <br />
+                            Feel the lower cost of maintenance within super fast user adoption.</p>
+                    </div>
+                    <div class="grid gap-y-10 mx-20">
+                        <img src="./assets/seambiosys_paid.png" width="100" height="100" class="mx-auto" />
+                        <h1 class="text-3xl font-bold">Worries free from over-paid, license seat</h1>
+                        <p>Just need watch a report or monitoring KPI? worries free without paid a seat for essential feature, <br />
+                            like just paid as you go.</p>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="flex flex-wrap lg:w-screen items-center my-20 text-black">
+                <div class="w-full md:w-1/2 text-center">
+                    <img
+                        src="https://storage.googleapis.com/imagelibrarystorage.pluginops.com/images/uploads/2020/04/Earning-Trust-Since-2010.png"
+                        width="400"
+                        class="mx-auto rounded-md"
+                    />
+                </div>
+                <div class="flex-1 grid grid-cols-1 lg:gap-y-5 lg:mx-0 mx-20 my-10 gap-y-10 mr-20">
+                    <h1 class="text-4xl font-bold">
+                        Need more exploration on Hubspot in Bahasa?</h1>
+                    <p>Let Seambiosys Solution Architect will handle your inquiry of Hubspot CRM in
+                        Bahasa Indonesia to simplified and clarified your need on hubspot.</p>
+                    <a href="/home/contact_sales" class="bg-seambiosys-orange w-60 p-3 rounded-md text-white text-center hover:text-white">
+                        Contact us
+                    </a>
+                </div>
+            </section>
+        
+            <section class="flex flex-wrap justify-center items-center my-40 grid lg:mr-0 mr-10 mx-auto w-screen text-black">
+                <div class="grid lg:grid-cols-4 gap-y-10 text-center mt-10">
+                    <div class="grid gap-y-3 mx-20">
+                        <img src="./assets/certified_revenue.png" width="70" height="70" class="mx-auto" />
+                        <h1 class="text-xl font-bold">HubSpot Revenue Operations Certified</h1>
+                    </div>
+                    <div class="grid gap-y-3 mx-20">
+                        <img src="./assets/certified_hubspot.png" width="70" height="70" class="mx-auto" />
+                        <h1 class="text-xl font-bold">HubSpot Sales Software Certified</h1>
+                    </div>
+                    <div class="grid gap-y-3 mx-20">
+                        <img src="./assets/certified_software.png" width="70" height="70" class="mx-auto" />
+                        <h1 class="text-xl font-bold">Service Hub Software Certified</h1>
+                    </div>
+                    <div class="grid gap-y-3 mx-20 mx-auto">
+                        <img src="./assets/certified_inbound.png" width="70" height="70" class="mx-auto" />
+                        <h1 class="text-xl font-bold">Inbound Certified</h1>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="flex flex-wrap lg:mx-40 lg:w-max items-start mt-60 text-black">
+                <div class="flex-1 grid gap-y-5 lg:mx-auto">
+                    <h1 class="lg:text-3xl text-2xl text-center lg:mx-0 mx-5 lg:mr-0 mr-10 font-semibold">Need anything to discuss about Hubspot with best tailor-made solution from Seambiosys?</h1>
+                    <a href="/home/contact_sales" class="bg-seambiosys-orange w-60 p-3 rounded-md mx-auto text-white text-center hover:text-white">
+                        Contact Us
+                    </a>
+                    <div class="flex grid lg:grid-cols-3 lg:mx-0 mx-20 gap-x-28 mt-20">
+                        <div class="w-72 grid gap-y-10">
+                            <img width="500" src="./assets/seambiosys_icon.png" class="mx-auto" />
+                        </div>
+                        <div class="w-72 grid lg:gap-y-3 gap-y-5 lg:mt-0 mt-10">
+                            <h1 class="text-2xl font-bold">PT Kusuma Technology Systema</h1>
+                            <p class="lg:w-max">The Orchard Residence Block C1,
+                                Pamegarsari, Parung, Bogor, West Java <br />
+                                Postal Code 16330</p>
+                            <a href="mailto:support@seambiosys.com" class="w-max text-seambiosys-orange hover:text-orange-700">support@seambiosys.com</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </body>
+    </div>
+</body>
+</html>
